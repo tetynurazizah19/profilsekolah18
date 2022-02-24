@@ -53,17 +53,20 @@
                             android:layout_height="match_parent"
                             android:gravity="center"
                             android:orientation="vertical">
+
                             <ImageView
                                 android:layout_width="80dp"
                                 android:layout_height="80dp"
                                 android:layout_gravity="center"
                                 android:layout_margin="10dp"
-                                android:src="@drawable/profil"/>
+                                android:onClick="profil"
+                                android:src="@drawable/profil" />
+
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_gravity="center"
-                                android:text="PROFIiL"
+                                android:text="PROFIL"
                                 android:textColor="#000"
                                 android:textSize="20dp"
                                 android:textStyle="bold"/>
@@ -96,13 +99,17 @@
                                 android:layout_width="80dp"
                                 android:layout_height="80dp"
                                 android:layout_gravity="center"
+                                android:onClick="Guru"
                                 android:layout_margin="10dp"
-                                android:src="@drawable/img"/>
+                                android:src="@drawable/guru"/>
                             <TextView
                                 android:layout_width="wrap_content"
-                                android:layout_height="wrap_content">
-
-                            </TextView>
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:text="GURU"
+                                android:textColor="#000"
+                                android:textSize="20dp"
+                                android:textStyle="bold"/>
                         </LinearLayout>
 
                     </androidx.cardview.widget.CardView>
@@ -137,17 +144,22 @@
                             android:layout_height="match_parent"
                             android:gravity="center"
                             android:orientation="vertical">
+
                             <ImageView
-                                android:layout_width="80dp"
+                                android:layout_width="75dp"
                                 android:layout_height="80dp"
                                 android:layout_gravity="center"
                                 android:layout_margin="10dp"
-                                android:src="@drawable/profil"/>
+                                android:onClick="Ekskul"
+                                android:src="@drawable/ekstrakulikuler" />
                             <TextView
                                 android:layout_width="wrap_content"
-                                android:layout_height="wrap_content">
-
-                            </TextView>
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:text="EKSKUL"
+                                android:textColor="#000"
+                                android:textSize="20dp"
+                                android:textStyle="bold"/>
                         </LinearLayout>
 
                     </androidx.cardview.widget.CardView>
@@ -173,17 +185,23 @@
                             android:layout_height="match_parent"
                             android:gravity="center"
                             android:orientation="vertical">
+
                             <ImageView
                                 android:layout_width="80dp"
                                 android:layout_height="80dp"
                                 android:layout_gravity="center"
                                 android:layout_margin="10dp"
-                                android:src="@drawable/profil"/>
+                                android:onClick="Fasilitas"
+                                android:src="@drawable/fasilitas" />
+
                             <TextView
                                 android:layout_width="wrap_content"
-                                android:layout_height="wrap_content">
-
-                            </TextView>
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:text="FASILTAS"
+                                android:textColor="#000"
+                                android:textSize="20dp"
+                                android:textStyle="bold"/>
                         </LinearLayout>
 
                     </androidx.cardview.widget.CardView>
@@ -222,13 +240,18 @@
                                 android:layout_width="80dp"
                                 android:layout_height="80dp"
                                 android:layout_gravity="center"
+                                android:onClick="Perpus"
                                 android:layout_margin="10dp"
-                                android:src="@drawable/profil"/>
+                                android:src="@drawable/perpus"
+                                tools:ignore="OnClick" />
                             <TextView
                                 android:layout_width="wrap_content"
-                                android:layout_height="wrap_content">
-
-                            </TextView>
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:text="PERPUS"
+                                android:textColor="#000"
+                                android:textSize="20dp"
+                                android:textStyle="bold"/>
                         </LinearLayout>
 
                     </androidx.cardview.widget.CardView>
@@ -258,13 +281,17 @@
                                 android:layout_width="80dp"
                                 android:layout_height="80dp"
                                 android:layout_gravity="center"
+                                android:onClick="Galeri"
                                 android:layout_margin="10dp"
-                                android:src="@drawable/profil"/>
+                                android:src="@drawable/img"/>
                             <TextView
                                 android:layout_width="wrap_content"
-                                android:layout_height="wrap_content">
-
-                            </TextView>
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:text="GALERI"
+                                android:textColor="#000"
+                                android:textSize="20dp"
+                                android:textStyle="bold"/>
                         </LinearLayout>
 
                     </androidx.cardview.widget.CardView>
